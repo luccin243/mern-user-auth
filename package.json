@@ -1,12 +1,15 @@
 {
   "name": "user-auth",
   "version": "1.0.0",
-  "description": "My first backend project after finish Reactjs build with MERN Stack",
+  "description": "User authentification, my first backend project after finish Reactjs, built with MERN Stack",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "yarn install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "yarn start --prefix client",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "repository": {
     "type": "git",

@@ -31,6 +31,7 @@ router.post('/register', (req, res) => {
     } else {
       const newUser = new User({
         name: req.body.name,
+        lastName: req.body.lastName,
         email: req.body.email,
         password: req.body.password,
       })
@@ -81,6 +82,7 @@ router.post('/login', (req, res) => {
         const payload = {
           id: user.id,
           name: user.name,
+          lastName: user.lastName,
         }
 
         // Sign token
