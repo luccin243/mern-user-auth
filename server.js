@@ -39,7 +39,7 @@ require('./config/passport')(passport)
 app.use('/api/users', users)
 
 // Set static assets if is in production
-if (process.env.NOD_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
   // Set static folder
   app.user(express.static('client/build'))
 
