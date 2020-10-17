@@ -8,3 +8,6 @@ In the project directory, you can run:
 
 To start, 
 ### `npm run dev`
+
+
+Make sure you add your MongoDB URI and Your Secrect in # config/keys.js
