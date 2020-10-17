@@ -10,4 +10,4 @@ To start,
 ### `npm run dev`
 
 
-Make sure you add your MongoDB URI and Your Secrect in ### `config/keys.js`
+Make sure you add your MongoDB URI and Your Secrect in `config/keys.js`
