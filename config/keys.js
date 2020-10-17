@@ -1,6 +1,6 @@
 module.exports = {
   mongoURI:
-    'mongodb+srv://admin-luccin:131015@luccinfirstcluster.dogll.mongodb.net/user-auth?retryWrites=true&w=majority',
+    'Your MongoDB URI',
   secretOrKey:
-    '131015',
+    'Your secret',
 }
